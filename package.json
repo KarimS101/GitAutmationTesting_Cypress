@@ -14,7 +14,8 @@
      "contact-us-headed": "cypress run -e TAGS=\"@contact-us\" --headed",
      "contact-us-headless": "cypress run -e TAGS=\"@contact-us\"",
      "login-and-smoke-pack": "cypress run -e TAGS=\"@smoke or @login\" --headed",
-     "smoke-pack-headless": "cypress run -e TAGS=\"@smoke\" --headless"
+     "smoke-pack-headless": "cypress run -e TAGS=\"@smoke\" --headless",
+     "regression-pack-headed": "cypress run -e TAGS=\"@regression and not @smoke \" --headed"
   },
   
   "devDependencies": {
