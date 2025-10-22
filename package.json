@@ -12,7 +12,8 @@
      "full-regression-headless-chrome":"cypress run --browser chrome --spec 'cypress/e2e/*.feature'",
      "contact-us-tests-headed-chrome":"cypress run --headed --browser chrome --spec 'cypress/e2e/contact_us.feature'",
      "contact-us-headed": "cypress run -e TAGS=\"@contact-us\" --headed",
-     "contact-us-headless": "cypress run -e TAGS=\"@contact-us\""
+     "contact-us-headless": "cypress run -e TAGS=\"@contact-us\"",
+     "login-and-smoke-pack": "cypress run -e TAGS=\"@smoke or @login\" --headed"
   },
   
   "devDependencies": {
