@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "full-regression-headed-chrome":"cypress run --headed --browser chrome --spec 'cypress/e2e/*.feature'",
      "full-regression-headless-chrome":"cypress run --browser chrome --spec 'cypress/e2e/*.feature'",
-     "contact-us-tests-headed-chrome":"cypress run --headed --browser chrome --spec 'cypress/e2e/contact_us.feature'"
+     "contact-us-tests-headed-chrome":"cypress run --headed --browser chrome --spec 'cypress/e2e/contact_us.feature'",
+     "contact-us-headed": "cypress run -e TAGS=\"@contact-us\" --headed"
   },
   
   "devDependencies": {
