@@ -1,3 +1,4 @@
+@login @regression
 Feature: WebdriverUniveristy - validate login page
 
     Background: Pre conditions Navigate to WebdriverUniversity homepage click on Login Portal

@@ -1,3 +1,4 @@
+@contact-us @regression
 Feature: WebdriverUniveristy - contact us page
 
     Background: Pre conditions Navigate to WebdriverUniversity homepage and click contact Us button
@@ -12,7 +13,7 @@ Feature: WebdriverUniveristy - contact us page
         When I click on the submit button
         Then I should be presented with a successful contact us submission message
 
-
+ 
     Scenario: Ivalid contact us from submission - missing email address
         When I type in a fist name
         When I type in a last name
@@ -29,7 +30,7 @@ Feature: WebdriverUniveristy - contact us page
         When I click on the submit button
         Then I should be presented with a successful contact us submission message
 
-
+   @smoke
     Scenario Outline: Validate contact us page
         And I type in a first name '<firstName>' and a last name '<lastName>'
         And I type an email address '<emailAddress>' and a comment '<comment>'
