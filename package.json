@@ -13,7 +13,8 @@
      "contact-us-tests-headed-chrome":"cypress run --headed --browser chrome --spec 'cypress/e2e/contact_us.feature'",
      "contact-us-headed": "cypress run -e TAGS=\"@contact-us\" --headed",
      "contact-us-headless": "cypress run -e TAGS=\"@contact-us\"",
-     "login-and-smoke-pack": "cypress run -e TAGS=\"@smoke or @login\" --headed"
+     "login-and-smoke-pack": "cypress run -e TAGS=\"@smoke or @login\" --headed",
+     "smoke-pack-headless": "cypress run -e TAGS=\"@smoke\" --headless"
   },
   
   "devDependencies": {
